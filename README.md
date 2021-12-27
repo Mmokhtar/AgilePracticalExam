@@ -12,7 +12,7 @@
 | Name | Role | Expertise |
 | - | - | - |
 | Youssef Maher | Cryptocurrency Architecture Designer | C/C++ development, P2P application design, Cloud architecture design |
-| Mohamed Mokhtar | Secure Code Reviewer & Penetration Tester  | Penetration testing, Usermode exploitation, Static code analysis, Software fuzzing |
+| Mohamed Mokhtar | Secure Code Reviewer & Penetration Tester  | P2P application development, C/C++ development, Penetration testing, Usermode exploitation, Static code analysis, Software fuzzing |
 | Mazen Mostafa | Blockchain Developer & Unit Tester | Software design patterns, Unit testing, C/C++ development, Solidity development, Python development, P2P application development |
 | Kareem Ayman | API Designer & Integrator | Javascript development, Python development, Web development, Cloud API design |
 
@@ -78,38 +78,78 @@ TACoin aims to be the main platform for the exchange of digital and physical com
 These 4 token types provide the users of the coin multiply ways to manage many trustless real-life environments in a quick and reliable manner.
 
 ## Product Backlog
-### Product Backlog Items
+### Product Backlog Items (User Stories)
  - Epic: As a user, I would like to own and trade TACoins and tokens to ease the exchange of money and commodities. [`114 Total Story Points`]
-    - Story: As a user, I would like to create a new wallet to hold my TACoins and tokens. [`13 Story Points`]
+    - Story: As a user, I would like to create a new wallet to hold my TACoins and tokens. [`13 Story Points`] 
+        - Youssef Maher
+        - Mazen Mostafa
+        - Ahmed Bakry
     - Story: As a user, I would like to easily and securely view my wallet balance to be able to know how much TACoins an tokens I have. [`20 Story Points`]
+        - Kareem Ayman
+        - Mostafa Lotfy
+        - Mohamed Ashraf
     - Story: As a user, I would like to transfer TACoins to another account to easy monetary exchange. [`20 Story Points`]
-    - Story: As a user, I would like to manage, backup and restgive it to other usersore multiple wallets at the same time to secure my funds. [`20 Story Points`]
+        - Mohamed Mokhtar
+        - Ahmed Salama
+        - Youssef Maher
+    - Story: As a user, I would like to manage, backup and restore multiple wallets at the same time to secure my funds. [`20 Story Points`]
+        - Mohamed Mokhtar
+        - Kareem Ayman
     - Story: As a token creator, I would like to create a new CCtoken to mint it later on. [`8 Story Points`]
+        - Ahmed Salah
+        - Omar Yehia
     - Story: As a token owner, I would like to mint an owned CCtoken to give it to other users. [`13 Story Points`]
+        - Mazen Mostafa
+        - Mina Marcus
     - Story: As a token owner, I would like to transfer ownership of my token to another user.  [`20 Story Points`]
+        - Mina Marcus
+        - Youssef Maher
  - Epic: As an application developer, I would like to incorprate TAcoins and tokens into my application to provide decentralized and secure software. [`133 Total Story Points`]
     - Story: As an application developer, I would like to have clear documentation for the protocol used for communication between nodes in the network to incorporate in my own application. [`40 Story Points`]
+        - Mostafa Lotfy
+        - Ahmed Salama
     - Story: As an application developer, I would like to have a ready-to-use library that enables me to view, send and receive TACoins and tokens programmatically to reduce development time. [`60 Story Points`]
+        - Ahmed Salah
+        - Mohamed Ashraf
+        - Kareem Ayman
     - Story: As an application developer, I would like to know how TACoin's network works through online articles to decide whether I should use it in my application. [`20 Story Points`]
+        - Ahmed Salah
+        - Ahmed Salama
     - Story: As an application developer, I would like to understand the types of tokens in the TACoin network through online articles to know which type is best for my business-case. [`13 Story Points`]
-    - Story: As an application developer, I would like to have a public forum where I can as questions that I cannot find an answer to it through the internet to speed up my development. [`20 Story Points`]
- - Epic: As a miner and/or trader, I would like to start a business and gain money via the exchange of TACoins and tokens. [`Large (L)`]
+        - Ahmed Salah
+        - Mostafa Lotfy
+    - Story: As an application developer, I would like to have a public forum where I can ask questions that I cannot find an answer to it through the internet to speed up my development. [`20 Story Points`]
+        - Mina Marcus
+        - Mohamed Mokhtar
+        - Ahmed Bakry
+ - Epic: As a miner and/or trader, I would like to start a business and gain money via the exchange of TACoins and tokens. [`180 Total Story Points`]
     - Story: As a trader, I would like blocks in the blockchain to be quickly added so that TACoin transfers are done quickly. [`30 Story Points`]
+        - Youssef Maher
+        - Mohamed Mokhtar
     - Story: As a miner and/or trader, I would like to have TACoin in a public marketplace so that I can convert my TACoins into other fiat currencies. [`60 Story Points`]
-    - Story: As a miner, I would like to have GPU-based mining software to mine more TACoins in less time and with less power-consumption. [`80 Story Points`]
-    - Story: As a trader, I would like to exchange TACoins and tokens directly thtough the blockchain network to ensure I cannot be scammed through another website. [`80 Story Points`]
-    - Story: As a trader, I would like to ensure that transfers are safe and secure so that I can buy a lot TACoins with low risk. [`30 Story Points`]
+        - Mina Marcus
+        - Omar Yehia
+        - Mohamed Ashraf
+    - Story: As a miner, I would like to have GPU-based mining software to mine more TACoins in less time and with less power-consumption. [`60 Story Points`]
+        - Mazen Mostafa
+        - Mostafa Lotfy
+    - Story: As a trader, I would like to exchange TACoins and tokens directly through the blockchain network to ensure I cannot be scammed through another website. [`80 Story Points`]
+        - Ahmed Bakry
+        - Omar Yehia
+    - Story: As a trader, I would like to know how transfers are safe and secure so that I can buy a lot TACoins with low risk. [`30 Story Points`]
+        - Mazen Mostafa
+        - Ahmed Salama
 
 ### Product Backlog Rationale
-The items in the product backlog are ordered according to the value given to stakeholders. This value is decided according how much it makes the cryptocurrency usable for the real-life use cases of the coin. For example, TACoins themselves are more important than tokens because the exchange of money is more common in real life than the exchange of commodities.
+The items in the product backlog are ordered according to the value given to stakeholders. This value is decided according to how much it makes the cryptocurrency usable for the real-life use cases of the coin. For example, TACoins themselves are more important than tokens because the exchange of money is more common in real life than the exchange of commodities. Moreover, exchanging commodities for money (TACoin) is prioritized because it is more common than exchanging them with other commodities, so that is also prioritized.
 
 Things to note:
- - The sprint size is intially 2 weeks
+ - The sprint size is initially 2 weeks
  - The average story-points per sprint is 80 story points
  - A story must be at max 40 story points before going into a sprint
- - Epics are sized anywhere from 100 to XXL, and do not follow the fibbonaci sequence (can be in any range between 100 and 200)
+ - Epics are sized anywhere from 100 to XXL, and do not follow the fibonacci sequence (can be in any range between 100 and 200)
 
-Story points are estimated in a modified fibbonachi sequence, then in the form of T-shirt sizes as follows:
+Story points are estimated in a modified fibonacci sequence, then in the form of T-shirt sizes as follows:
  - 1:   10-20 of them can be done in a productive work day
  - 2:   6-9 of them can be done in a productive work day
  - 3:   3-6 of them can be done in a productive work day
@@ -128,6 +168,5 @@ Story points are estimated in a modified fibbonachi sequence, then in the form o
  - XXL: Takes about 60-80 productive work days  [`Epic Sized`]
 
 \* A productive work day is meant for the whole team
-
 
 # AgilePracticalExam: TACoin: Part 2 (TODO)
