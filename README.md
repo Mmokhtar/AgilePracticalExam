@@ -1,3 +1,5 @@
+## Google Document: https://docs.google.com/document/d/1fZMPlZUkIPmgZ5zzB1YmlkAyab8qzlsldUYdMDP4P9o/edit?usp=sharing
+
 # AgilePracticalExam: TACoin: Part 1
 ## Info
  - Name: Mohamed Mokhtar Abdelrasoul
@@ -173,15 +175,15 @@ Story points are estimated in a modified fibonacci sequence, then in the form of
 
 \* A productive work day is meant for the whole team
 
-# AgilePracticalExam: TACoin: Part 2 (TODO)
+# AgilePracticalExam: TACoin: Part 2
 
 ## Documents
 
 The average story-points per sprint (for this team) is 90 story points.
 
-The two daily Scrum documents (one for each sprint) can be found [here](https://docs.google.com/spreadsheets/d/1PmwSIqlR63wPKU5sStW_wMGMCKIjT-waAUNeVpitzqA/edit?usp=sharing).
+The two daily Scrum documents (one for each sprint) can be found [here](https://docs.google.com/spreadsheets/d/1PmwSIqlR63wPKU5sStW_wMGMCKIjT-waAUNeVpitzqA/edit?usp=sharing): https://docs.google.com/spreadsheets/d/1PmwSIqlR63wPKU5sStW_wMGMCKIjT-waAUNeVpitzqA/edit?usp=sharing
 
-The sprint document for sprint 2 can be found [here](https://docs.google.com/document/d/1d1KdLVx8HhLLajzjPVwmWNQXUzcDx64URwjjUd1jNdQ/edit?usp=sharing).
+The sprint document for sprint 2 can be found [here](https://docs.google.com/document/d/1d1KdLVx8HhLLajzjPVwmWNQXUzcDx64URwjjUd1jNdQ/edit?usp=sharing): https://docs.google.com/document/d/1d1KdLVx8HhLLajzjPVwmWNQXUzcDx64URwjjUd1jNdQ/edit?usp=sharing
 
 ## Workflow Rationale
 The rules on the transitions are:
