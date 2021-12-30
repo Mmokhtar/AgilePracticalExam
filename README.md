@@ -174,11 +174,25 @@ Story points are estimated in a modified fibonacci sequence, then in the form of
 \* A productive work day is meant for the whole team
 
 # AgilePracticalExam: TACoin: Part 2 (TODO)
+
+## Documents
+
 The average story-points per sprint (for this team) is 90 story points.
 
-## Daily Scrum Documents (TODO)
- 
-## Sprint Document (TODO)
+The two daily Scrum documents (one for each sprint) can be found [here](https://docs.google.com/spreadsheets/d/1PmwSIqlR63wPKU5sStW_wMGMCKIjT-waAUNeVpitzqA/edit?usp=sharing).
 
-## Workflow Rationale (TODO)
+The sprint document for sprint 2 can be found [here](https://docs.google.com/document/d/1d1KdLVx8HhLLajzjPVwmWNQXUzcDx64URwjjUd1jNdQ/edit?usp=sharing).
 
+## Workflow Rationale
+The rules on the transitions are:
+ - Create: No rules
+ - Start Design: Automatically assign to current user
+ - Skip Design, No Design Required: No rules
+ - Finalize Design: Automatically clear the assignee field + Only the assignee can use this transition
+ - Start Implementation: Automatically assign to current user
+ - Found Design Flaw, Redesign: Automatically clear the assignee field + Only the assignee can use this transition
+ - Found Design Flaw, Redesign: Automatically clear the assignee field + Only the assignee can use this transition
+ - Send For Security Audit: Automatically clear the assignee field + Only the assignee can use this transition
+ - Start Security Audit: Automatically assign to current user
+ - Found Implementation Flaw, Reimplement: Automatically clear the assignee field + Only the assignee can use this transition
+ - Approve Implementation: Automatically clear the assignee field + Only the assignee can use this transition
